@@ -4,6 +4,7 @@ const cheerio = require("cheerio");
 
  const scrapeAndSave = async () => {
  try {
+
     console.log("Scraping stories...");
     const { data } = await axios.get(
       "https://news.ycombinator.com"
