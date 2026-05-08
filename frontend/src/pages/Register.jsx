@@ -22,7 +22,7 @@ const Register = () => {
   const handleSubmit = async (e) => {
     e.preventDefault();
     try {
-      const response = await fetch('http://localhost:3000/api/user/register',
+      const response = await fetch('https://mernapp1-p41g.onrender.com/api/user/register',
         {
           method: "POST",
 
