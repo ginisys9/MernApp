@@ -104,7 +104,7 @@ frontend/
 ## Backend `.env`
 
 ```env
-PORT=5000
+PORT=3000
 
 MONGO_URI=your_mongodb_connection
 
