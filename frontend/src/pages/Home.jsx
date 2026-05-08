@@ -10,7 +10,7 @@ const Home = () => {
   const fetchStories = async () => {
     try {
       const response = await fetch(
-        `http://localhost:3000/api/stories/getAll/?page=1&limit=10`
+        `https://mernapp1-p41g.onrender.com/api/stories/getAll/?page=1&limit=10`
       );
 
       const data = await response.json()
