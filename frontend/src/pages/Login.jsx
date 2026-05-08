@@ -19,7 +19,7 @@ const Login = () => {
     e.preventDefault();
     try {
       const response = await fetch(
-        `http://localhost:3000/api/user/login`,
+        `https://mernapp1-p41g.onrender.com/api/user/login`,
         {
           method: "POST",
           headers: {
