@@ -16,7 +16,7 @@ const Bookmarks = () => {
       const requests = user.bookmarks.map(
         async (id) => {
           const response = await fetch(
-            `http://localhost:3000/api/stories/${id}`
+            `https://mernapp1-p41g.onrender.com/api/stories/${id}`
           );
          const data = await response.json();
           console.log(data)
