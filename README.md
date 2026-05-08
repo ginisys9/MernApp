@@ -118,7 +118,7 @@ JWT_SECRET=your_secret_key
 ## Clone Repository
 
 ```bash
-git clone YOUR_GITHUB_REPOSITORY_LINK
+git clone https://github.com/ginisys9/MernApp
 ```
 
 ---
@@ -136,7 +136,7 @@ npm run dev
 Backend runs on:
 
 ```bash
-http://localhost:5000
+http://localhost:3000
 ```
 
 ---
